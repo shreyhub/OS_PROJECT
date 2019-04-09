@@ -3,7 +3,7 @@ interface Input{
 void input();
 }
 
-public class  OS implements Input{
+public class  OS2 implements Input{
  int no_of_processes, total, random1, counter, time_quantum_p; 
  int wait_time_p, turnaround_time_p ,pos,z,b,local_var,m; 
 float average_wait_time_P, average_turnaround_time_p;  
@@ -38,7 +38,7 @@ random1 =no_of_processes;
 
 public static void  main(String[] aa){
 
-OS o=new OS();
+OS2 o=new OS2();
 o.input();
 }
 }
