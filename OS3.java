@@ -97,7 +97,7 @@ int lp=0;
 public static void  main(String[] aa){
 
 OS o=new OS();
-o.input();
+o.task();
 }
 }
 
