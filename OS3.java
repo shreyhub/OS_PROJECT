@@ -5,7 +5,7 @@ void input();
 
 interface Input2{void task();}
 
-public class  OS implements Input2{
+public class  OS3 implements Input2{
  int no_of_processes, total, random1, counter, time_quantum_p; 
  int wait_time_p, turnaround_time_p ,pos,z,b,local_var,m; 
 float average_wait_time_P, average_turnaround_time_p;  
